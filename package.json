@@ -1,0 +1,27 @@
+{
+  "name": "shockme",
+  "version": "0.1.2",
+  "devDependencies": {
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "glamor": "^2.20.20",
+    "micro": "^6.1.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-slider": "^0.7.0"
+  },
+  "directories": {
+    "lib": "build"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "start": "node --harmony-async-await server/index.js",
+    "frontend/start": "react-scripts start",
+    "frontend/build": "react-scripts build",
+    "frontent/test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
