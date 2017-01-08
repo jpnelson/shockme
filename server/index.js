@@ -5,7 +5,7 @@ const app = express()
 //   res.send('Hello World!');
 // });
 
-app.use(express.static(__dirname + 'build'));
+app.use(express.static('build'));
 
 const port = process.env.PORT || 8080;
 
