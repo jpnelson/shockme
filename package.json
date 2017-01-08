@@ -5,8 +5,8 @@
     "react-scripts": "0.8.4"
   },
   "dependencies": {
+    "express": "^4.14.0",
     "glamor": "^2.20.20",
-    "micro": "^6.1.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-slider": "^0.7.0"
@@ -18,7 +18,7 @@
     "build"
   ],
   "scripts": {
-    "start": "node --harmony-async-await server/index.js",
+    "start": "node server/index.js",
     "frontend/start": "react-scripts start",
     "frontend/build": "react-scripts build",
     "frontent/test": "react-scripts test --env=jsdom",

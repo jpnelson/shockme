@@ -1,8 +1,12 @@
-const micro = require('micro');
+const express = require('express')
+const app = express()
 
-const server = micro(async (req, res) => {
-  res.writeHead(200)
-  res.end('hi')
+app.get('/', function (req, res) {
+  res.send('Hello World!');
 });
 
-server.listen(3000);
+const port = process.env.PORT || 8080;
+
+app.listen(port, function () {
+  console.log(`Example app listening on port ${port}`);
+});
