@@ -2,14 +2,14 @@
   "name": "shockme",
   "version": "0.1.2",
   "devDependencies": {
-    "react-scripts": "0.8.4"
   },
   "dependencies": {
     "express": "^4.14.0",
     "glamor": "^2.20.20",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
-    "react-slider": "^0.7.0"
+    "react-slider": "^0.7.0",
+    "react-scripts": "0.8.4"
   },
   "directories": {
     "lib": "build"
